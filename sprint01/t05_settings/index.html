@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Settings</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 style="text-align: center">Settings</h1>
+    <form class="main-part">
+      <div class="form-part">
+        <div class="first-column">
+          <div class="fonts">
+            <p>Typeface</p>
+            <select id="fonts">
+              <option value="Acunim Pro">Acunim Pro</option>
+              <option value="Comic Sans">Comic Sans</option>
+              <option value="Times New Roman">Times New Roman</option>
+            </select>
+          </div>
+
+          <div class="font-weight-part">
+            <p>Weight</p>
+            <input class="checkbox_weight" type="checkbox" id="regular" />
+            <label for="regular">Regular</label>
+            <input class="checkbox_weight" type="checkbox" id="bold" />
+            <label for="bold">Bold</label>
+          </div>
+
+          <div class="font-size-part">
+            <p>Size</p>
+            <input
+              type="range"
+              class="range-slider"
+              min="1"
+              max="100"
+              value="20"
+            />
+            <div class="font-example">
+              <span id="a1">A</span>
+              <span id="a2" style="font-size: 35px">A</span>
+            </div>
+          </div>
+        </div>
+        <div class="second-column">
+          <div class="ui-change-part">
+            <span>Dark UI</span>
+            <label class="switch">
+              <input type="checkbox" checked />
+              <span class="slider round"></span>
+            </label>
+          </div>
+
+          <div class="color-change-part">
+            <p>Color</p>
+            <div class="color-checkboxes">
+              <input
+                id="b_check"
+                type="checkbox"
+                value="blue"
+                class="color-pick"
+              />
+              <label for="b_check" class="color-label"></label>
+
+              <input
+                id="g_check"
+                type="checkbox"
+                value="green"
+                class="color-pick"
+              />
+              <label for="g_check" class="color-label"></label>
+
+              <input
+                id="p_check"
+                type="checkbox"
+                value="purple"
+                class="color-pick"
+              />
+              <label for="p_check" class="color-label"></label>
+
+              <input
+                id="y_check"
+                type="checkbox"
+                value="yellow"
+                class="color-pick"
+              />
+              <label for="y_check" class="color-label"></label>
+
+              <input
+                id="o_check"
+                type="checkbox"
+                value="orange"
+                class="color-pick"
+              />
+              <label for="o_check" class="color-label"></label>
+            </div>
+          </div>
+        </div>
+        <div class="menu-part">
+          <img src="assets/images/artistic-brush.png" alt="brush" />
+          <img src="assets/images/user-icon.png" alt="user" />
+          <img src="assets/images/sms-speech-bubble.png" alt="sms" />
+          <img src="assets/images/computer-screen.png" alt="computer" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

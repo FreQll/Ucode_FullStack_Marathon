@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Handbook</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sharada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Handbook</h1>
+
+    <div class="links">
+            <a href="#1">HTML</a> <br>
+            <a href="#2">CSS</a> <br>
+            <a href="#3">Protocols</a> <br>
+    </div>
+
+    <div class="grid-container">
+        <div class="html-section">
+            <h2 id="1">HTML</h2>
+            <div class="default-grid">
+                <div class="card">
+                    <h4>h1</h4>
+                    <p>The h1 to h6 tags are used to define HTML headings</p>
+                    <p>
+                        <code>&lt;h1&gt;Title&lt;/h1&gt;</code>
+                    </p>
+
+                    <h1>Title</h1>
+                </div>
+
+                <div class="card">
+                    <h4>table</h4>
+                    <p>defines an HTML table</p>
+                    <p>
+                        <code>&lt;table&gt;&lt;/table&gt;</code>
+                    </p>
+
+                    <table>
+                        <tr>
+                            <td>Country</td>
+                            <td>Country</td>
+                            <td>Country</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <h4>hr</h4>
+                    <p>draws a horizontal line</p>
+                    <p>
+                        <code>&lt;hr&gt;</code>
+                    </p>
+
+                    <hr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum esse in non nesciunt consequatur<hr>
+
+                </div>
+
+                <div class="card">
+                    <h4>input</h4>
+                    <p>Designed to create text fiels, various buttons, radio buttons and checkboxes</p>
+                    <p>
+                        <code>&lt;input attributes&gt;</code>
+                    </p>
+
+                    <h4>Your name</h4>
+                    <input type="text" name="" id="">
+
+                    <h4>Question</h4>
+                    <input type="radio" name="" id=""><span>answer</span><br>
+                    <input type="radio" name="" id=""><span>answer</span><br>
+                    <input type="radio" name="" id=""><span>answer</span>
+                </div>
+
+                <div class="card">
+                    <h4>button</h4>
+                    <p>Clickable button</p>
+                    <p>
+                        <code>&lt;button&gt;Button&lt;button&gt;</code>
+                    </p>
+
+                    <button>Button</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="css-section">
+            <h2 id="2">CSS</h2>
+            <div class="default-grid">
+                <div class="card">
+                    <h4>background</h4>
+                    <p>specifies the background of an element</p>
+                    <p>
+                        <code>background: [];</code>
+                    </p>
+
+                    <span class="red-span">Text</span>
+                </div>
+
+                <div class="card">
+                    <h4>opacity</h4>
+                    <p>specifies the opacity/transparency of an element</p>
+                    <p>
+                        <code>opacity: 0.8;</code>
+                    </p>
+
+                    <div style="background-color: green; width: 35px; height: 15px;"></div>
+                    <div style="background-color: green; width: 35px; height: 15px; opacity: 0.8;"></div>
+                    <div style="background-color: green; width: 35px; height: 15px; opacity: 0.6;"></div>
+                    <div style="background-color: green; width: 35px; height: 15px; opacity: 0.3;"></div>
+                </div>
+
+                <div class="card">
+                    <h4>line-height</h4>
+                    <p>specifies the height of line</p>
+                    <p>
+                        <code>line-height: 1.5;</code>
+                    </p>
+
+                    <span style="line-height: 1.5;">Lorem ipsum dolor</span><br>
+                    <span style="line-height: 5;">Lorem ipsum dolor</span>
+                </div>
+
+                <div class="card">
+                    <h4>text-transform</h4>
+                    <p>controls the capitalization of text</p>
+                    <p>
+                        <code>text-transform: uppercase;</code>
+                    </p>
+
+                    <span style="text-transform: uppercase;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dumbledore.</span>
+                </div>
+
+                <div class="card">
+                    <h4>border</h4>
+                    <p>specifies the style of the outline</p>
+                    <p>
+                        <code>border-bottom:2px solid #666;</code>
+                    </p>
+
+                    <div style="height: 50px; width: 50px; background-color: rgb(156, 156, 156); border-bottom: 2px solid red;"></div>
+                </div>
+
+                <div class="card">
+                    <h4>font-size</h4>
+                    <p>specifies the font size of the item.</p>
+                    <p>%,px,rem,inherit</p>
+                    <p>
+                        <code>font-size:24px;</code>
+                    </p>
+
+                    <span style="font-size: 24px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="protocol-section">
+            <h2 id="3">PROTOCOLS</h2>
+
+            <div class="protocol-grid">
+                <div class="card">
+                    <h4>HTTP methods</h4>
+                    <p>
+                        GET -
+                        The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+                        <br><br> HEAD -
+                        The HEAD method asks for a response identical to a GET request, but without the response body.
+                        <br><br> POST -
+                        The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+                        <br><br> PUT -
+                        The PUT method replaces all current representations of the target resource with the request payload.
+                        <br><br> DELETE -
+                        The DELETE method deletes the specified resource.
+                        <br><br> PATCH -
+                        The PATCH method applies partial modifications to a resource.
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <h4>HTTP status code</h4>
+    
+                    <p>
+                        HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+    
+                        Informational responses (100 – 199) <br><br>
+                        Successful responses (200 – 299) <br><br>
+                        Redirection messages (300 – 399) <br><br>
+                        Client error responses (400 – 499) <br><br>
+                        Server error responses (500 – 599) <br><br>
+                        The status codes listed below are defined by RFC 9110.
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <h4>DNS list by types</h4>
+    
+                    <p>There are several types of DNS (Domain Name System) records, each with a specific purpose. Here are some of the most common types: <br> <br>
+    
+                        A (Address) Record: This maps a domain name to an IPv4 address. <br><br>
+                        
+                        AAAA (IPv6 Address) Record: This maps a domain name to an IPv6 address. <br><br>
+                        
+                        MX (Mail Exchange) Record: This specifies the mail server responsible for accepting email messages on behalf of a domain. <br><br>
+                        
+                        CNAME (Canonical Name) Record: This maps an alias domain name to the canonical (real) domain name. <br><br>
+                        
+                        TXT (Text) Record: This allows the domain owner to add arbitrary text to the DNS record, typically used for domain verification or other purposes. <br><br>
+                        
+                        NS (Name Server) Record: This specifies the authoritative name servers for a domain. <br><br>
+                        
+                        SOA (Start of Authority) Record: This provides information about the DNS zone, including the primary name server for the zone, the email address of the zone administrator, and various timing values. <br><br>
+                        
+                        SRV (Service) Record: This specifies the location of a specific service, such as a SIP or XMPP server. <br><br>
+                        
+                        PTR (Pointer) Record: This maps an IP address to a domain name, typically used for reverse DNS lookups. <br><br>
+                        
+                        These are some of the most common DNS record types, but there are many others as well, such as SPF, DNSKEY, DS, and more.</p>
+                </div>
+    
+                <div class="card">
+                    <h4>Identifying google's IP</h4>
+    
+                    <p>
+                        An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. The IP address of Google can vary depending on the location of the user and the Google service being accessed. <br>
+    
+                        Google typically uses a large range of IP addresses, making it difficult to provide a single IP address that can be associated with the search giant. Some commonly used IP addresses for Google include: <br><br>
+    
+                        216.58.194.174 <br>
+                        64.233.191.255 <br>
+                        172.217.3.174 <br> <br>
+                        Keep in mind that these IP addresses may change over time, so it's always best to use the domain name "Google" instead of an IP address to access Google services
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

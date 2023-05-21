@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(254, 254, 102);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+h1, h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    font-family: 'Noto Sans Sharada', sans-serif;
+}
+
+p, a, span {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.grid-container {
+    width: 60%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.default-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1.5fr;
+    gap: 20px;
+}
+
+.protocol-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1.5fr);
+    grid-template-rows: 1fr 2fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(227, 227, 227);
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.red-span {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+@media (max-width: 320px) {
+    .default-grid {
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px,auto);
+        margin:0 auto;
+        gap:10px;
+    }
+
+    .protocol-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px,auto);
+        margin:0 auto;
+        gap:10px;
+    }
+
+    .red-span {
+        height: 20%;
+    }
+
+    .grid-container {
+        width: 95%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .default-grid, .protocol-grid {
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px,auto);
+        margin:0 auto;
+        gap:10px;
+    }
+
+    .red-span {
+        height: 30%;
+    }
+
+    .grid-container {
+        width: 95%;
+    }
+}

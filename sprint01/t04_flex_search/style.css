@@ -1,0 +1,27 @@
+.search-bar {
+    height: 2em;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-bar > input {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+}
+
+.search-bar > input:focus {
+    color: green;
+}
+
+.search-bar > input:hover {
+    color: red;
+}
+
+.search-bar > button {
+    color: green;
+}
+
+.search-bar > button:hover {
+    color: red;
+}

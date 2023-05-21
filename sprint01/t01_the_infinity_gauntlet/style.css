@@ -1,0 +1,11 @@
+.gauntlet {
+    height: 200px;
+}
+
+.gauntlet:hover + .man-container img:nth-child(2n+1) {
+    visibility: hidden;
+}
+
+.man {
+    height: 70px;
+}

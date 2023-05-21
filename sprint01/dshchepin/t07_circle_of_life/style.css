@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+    animation: movement linear 15s infinite;
+    transition: 2s ease all;
+}
+
+.circle:hover {
+    background-color: red;
+}
+
+@keyframes movement {
+    0% {
+        margin-left: 0%;
+    }
+
+    50% {
+        margin-left: 90%;
+    }
+
+    100% {
+        transform: 0%;
+    }
+}
