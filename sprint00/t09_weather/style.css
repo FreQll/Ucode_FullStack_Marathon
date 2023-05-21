@@ -1,0 +1,28 @@
+.weather-card {
+    display: inline-block;
+    background-color: white;
+    transition: 0.2s all;
+}
+
+.weather-card:hover {
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.55);
+}
+
+.weather-card > span {
+    display: block;
+    text-align: center;
+}
+
+.weather-date {
+    background-color: #4095B5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: white;
+}
+
+.weather-degrees {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}

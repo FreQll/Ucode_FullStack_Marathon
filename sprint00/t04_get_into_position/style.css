@@ -1,0 +1,13 @@
+h1 {
+    color: white;
+    background-color: red;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+}
+
+span {
+    position: relative;
+    top: 15px;
+}

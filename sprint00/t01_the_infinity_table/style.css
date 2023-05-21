@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+}
+
+.table-head {
+    background-color: black;
+    color: white;
+}
+
+td {
+    padding-top : 8px;
+    padding-bottom : 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border : solid 1px rgb(146, 134, 134);
+    font-size: 16px;
+}
+
+.table-body {
+    text-align: center;
+}
+
+.orange-stone {
+    background-color: #D6923D;
+}
+
+.green-stone {
+    background-color: #53A05D;
+}
+
+.blue-stone {
+    background-color: #005792;
+}
+
+.yellow-stone {
+    background-color: #FFFF05;
+}
+
+.red-stone {
+    background-color: #C12A2E;
+}
+
+.purple-stone {
+    background-color: #8175B7;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 14px;
+}
