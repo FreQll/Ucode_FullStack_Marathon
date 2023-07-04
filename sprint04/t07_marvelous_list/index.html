@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma list</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Sigma list</h1>
+
+    <div class="container">
+        <div class="films-list">
+            <div onclick="changeInfo(this.id)" id="0" class="list-item">Drive</div>
+            <div onclick="changeInfo(this.id)" id="1" class="list-item">Taxi Driver</div>
+            <div onclick="changeInfo(this.id)" id="2" class="list-item">American Psycho</div>
+        </div>
+
+        <div class="content">
+            <div class="left">
+                <p id="title">Title</p>
+                <span id="date">Date</span>
+                <div id="actors" class="actors">Actors</div>
+                <div id="info" class="description">Info</div>
+            </div>
+
+            <div class="right">
+                <img id="poster" src="assets/images/drive.jpg" alt="film">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

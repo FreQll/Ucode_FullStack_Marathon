@@ -1,0 +1,51 @@
+.stone {
+    width: 100px;
+    height: 100px;
+    rotate: 45deg;
+    display:  inline-block;
+    margin: 50px;
+    position: absolute;
+}
+
+.off {
+    border: 2px dashed black;
+    opacity: 90%;
+}
+
+.on {
+    border: none;
+}
+
+.yellow {
+    background-color: yellow;
+    bottom: 400px;
+    left: 300px;
+}
+
+.blue {
+    background-color: blue;
+    bottom: 50px;
+    left: 150px;
+}
+
+.green {
+    background-color:green;
+    top: 80px;
+    right: 200px;
+}
+
+.purple {
+    background-color: purple;
+    bottom: 100px;
+    right: 50px;
+}
+
+.pink {
+    background-color: pink;
+    top: 150px;
+    left: 300px;
+}
+
+.red {
+    background-color: red;
+}

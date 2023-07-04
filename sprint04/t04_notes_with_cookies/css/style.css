@@ -1,0 +1,68 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.btn {
+    background-color: #F0F0F0;
+    border: 0;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.btn:active {
+    opacity: 90%;
+}
+
+.add {
+    background-color: rgb(29, 207, 189);
+    color: white;
+}
+
+.clear {
+    position: absolute;
+    right: 0;
+}
+
+.cookie-buttons {
+    margin-bottom: 30px;
+}
+
+.area {
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.area > textarea {
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.area > textarea:focus {
+    outline: none !important;
+    border: 1px solid rgb(29, 207, 189);
+}
+
+.output {
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+#archive {
+    background-color: white;
+    padding: 15px;
+}

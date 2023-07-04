@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+button, #calories {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+#calories {
+    font-size: 26px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.left-side > img {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container {
+    background-color: #61cf59;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.center-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.center-side > .top > span {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.center-side > .middle > div {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+#age {
+    opacity: 60%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+.right-side > button {
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 2px solid #257520;
+    color: #257520;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.right-side > button:hover {
+    background-color:#f2fcf1;
+}
+
+.right-side > button:active {
+    background-color:#e1f9df;
+}
+
+.right-side > button:disabled {
+    opacity: 50%;
+    background-color: white;
+}
+
+.right-side > input {
+    width: 90px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color:#f2fcf1;
+}
+
+.center-side > .bottom > button {
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border: 2px solid #257520;
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center-side > .bottom > button:hover {
+    background-color:#f2fcf1;
+}
+
+.center-side > .bottom > button:active {
+    background-color:#e1f9df;
+}
